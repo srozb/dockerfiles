@@ -1,7 +1,7 @@
 FROM ubuntu:14.04
 MAINTAINER Slawomir Rozbicki <docker@rozbicki.eu>
 
-ENV PAKPATH /root/etlegacy/mod/etmain
+ENV PAKPATH /root/etlegacy/etmain
 ENV PAKMIRROR http.kernwaffe.de/et/etmain
 
 # Install deps
