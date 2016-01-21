@@ -1,8 +1,6 @@
 FROM ubuntu:14.04
 MAINTAINER Slawomir Rozbicki <docker@rozbicki.eu>
 
-ENV http_proxy http://10.150.6.190:9090
-ENV https_proxy http://10.150.6.190:9090
 ENV ETL_PATH /root/etlegacy
  
 RUN apt-get update -y && apt-get install -y wget 
