@@ -2,7 +2,7 @@ FROM firemiles/crosstool-ng
 MAINTAINER Slawomir Rozbicki <docker@rozbicki.eu>
 
 # Install some usefull apps
-apt-get update -y && apt-get install -y vim
+RUN apt-get update -y && apt-get install -y vim
 
 # Copy config for selected arch
 COPY .config /home/firemiles/
