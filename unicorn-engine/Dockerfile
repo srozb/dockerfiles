@@ -1,7 +1,5 @@
 FROM ubuntu:15.10
 MAINTAINER Slawomir Rozbicki <docker@rozbicki.eu>
-ENV http_proxy http://10.150.6.190:9090
-ENV https_proxy http://10.150.6.190:9090
 
 # Tunables
 ENV VER 0.9
